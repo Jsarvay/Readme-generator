@@ -56,39 +56,38 @@ function promptUser() {
 }
 
 function generateRead(user) {
-    return `
-    # ${user.title}
+    return `# ${user.title}
 
-    ## Description
-    ${user.description}
+## Description
+${user.description}
 
-    ## Table of Contents
-    [Installation](#install)
-    [Usage](#usage)
-    [Contributing](#contribute)
-    [Testing](#test)
-    [Questions](#question)
+## Table of Contents
+[Installation](#installation)
+[Usage](#usage)
+[Contributing](#contributing)
+[Testing](#testing)
+[Questions](#questions)
     
-    <a name="install"/>
-    ##Installation
-    ${user.install}
+<a name="installation"></a>
+##Installation
+${user.install}
     
-    <a name="usage"/>
-    ##Usage
-    ${user.usage}
+<a name="usage"></a>
+##Usage
+${user.usage}
     
-    <a name="contribute"/>
-    ##Contributing
-    ${user.contribution}
+<a name="contributing"></a>
+##Contributing
+${user.contribution}
     
-    <a name="test"/>
-    ##Testing
-    ${user.test}
+<a name="testing"></a>
+##Testing
+${user.test}
     
-    <a name="question"/>
-    ##Questions
-    ${user.github}
-    ${user.email}`
+<a name="questions"></a>
+##Questions
+Github: [${user.github}](http://github.com/${user.github}/)
+E-mail: ${user.email}`
 }
 
 promptUser()
