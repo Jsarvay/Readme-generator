@@ -55,4 +55,51 @@ function promptUser() {
     ])
 }
 
-promptUser();
+function generateRead(user) {
+    return `
+    # ${user.title}
+
+    ## Description
+    ${user.description}
+
+    ## Table of Contents
+    [Installation](#install)
+    [Usage](#usage)
+    [Contributing](#contribute)
+    [Testing](#test)
+    [Questions](#question)
+    
+    <a name="install"/>
+    ##Installation
+    ${user.install}
+    
+    <a name="usage"/>
+    ##Usage
+    ${user.usage}
+    
+    <a name="contribute"/>
+    ##Contributing
+    ${user.contribution}
+    
+    <a name="test"/>
+    ##Testing
+    ${user.test}
+    
+    <a name="question"/>
+    ##Questions
+    ${user.github}
+    ${user.email}`
+}
+
+promptUser()
+    .then(function(user){
+        const read = generateRead(user);
+
+        return writeFileAsync("read.md", read);
+    })
+    .then(function(){
+        console.log("README Generated!");
+    })
+    .catch(function(err){
+        console.log(err);
+    });
