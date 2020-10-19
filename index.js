@@ -70,30 +70,30 @@ ${user.description}
 ![Badge](https://img.shields.io/static/v1?label=License&message=${user.license}&color=<brightgreen>)
 
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[Contributing](#contributing)
-[Testing](#testing)
-[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Testing](#testing)
+* [Questions](#questions)
     
-<a name="installation"></a>
 ##Installation
+<a name="installation"></a>
 ${user.install}
     
-<a name="usage"></a>
 ##Usage
+<a name="usage"></a>
 ${user.usage}
     
-<a name="contributing"></a>
 ##Contributing
+<a name="contributing"></a>
 ${user.contribution}
     
-<a name="testing"></a>
 ##Testing
+<a name="testing"></a>
 ${user.test}
     
-<a name="questions"></a>
 ##Questions
+<a name="questions"></a>
 Please feel free to reach out to either of the following links with questions regarding the use of this application.
 Github: [${user.github}](http://github.com/${user.github}/)
 E-mail: ${user.email}`
