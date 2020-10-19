@@ -76,23 +76,23 @@ ${user.description}
 * [Testing](#testing)
 * [Questions](#questions)
     
-##Installation
+## Installation
 <a name="installation"></a>
 ${user.install}
     
-##Usage
+## Usage
 <a name="usage"></a>
 ${user.usage}
     
-##Contributing
+## Contributing
 <a name="contributing"></a>
 ${user.contribution}
     
-##Testing
+## Testing
 <a name="testing"></a>
 ${user.test}
     
-##Questions
+## Questions
 <a name="questions"></a>
 Please feel free to reach out to either of the following links with questions regarding the use of this application.
 

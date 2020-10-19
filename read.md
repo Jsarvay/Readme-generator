@@ -13,23 +13,23 @@ Used to generate a readme using the command line
 * [Testing](#testing)
 * [Questions](#questions)
     
-##Installation
+## Installation
 <a name="installation"></a>
 perform a git clone to your local drive
     
-##Usage
+## Usage
 <a name="usage"></a>
 run node index.js
     
-##Contributing
+## Contributing
 <a name="contributing"></a>
 n/a
-    
-##Testing
+
+## Testing
 <a name="testing"></a>
 n/a
     
-##Questions
+## Questions
 <a name="questions"></a>
 Please feel free to reach out to either of the following links with questions regarding the use of this application.
 
