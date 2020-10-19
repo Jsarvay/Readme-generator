@@ -94,6 +94,7 @@ ${user.test}
     
 <a name="questions"></a>
 ##Questions
+Please feel free to reach out to either of the following links with questions regarding the use of this application.
 Github: [${user.github}](http://github.com/${user.github}/)
 E-mail: ${user.email}`
 }
