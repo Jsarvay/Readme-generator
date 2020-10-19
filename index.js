@@ -13,6 +13,11 @@ function promptUser() {
         },
         {
             type: "input",
+            name: "created",
+            message: "What is your name?"
+        },
+        {
+            type: "input",
             name: "description",
             message: "Please provide a description of your project."
         },
@@ -57,9 +62,12 @@ function promptUser() {
 
 function generateRead(user) {
     return `# ${user.title}
+### Created by ${user.created}
 
 ## Description
 ${user.description}
+
+![Badge](https://img.shields.io/static/v1?label=License&message=${user.license}&color=<brightgreen>)
 
 ## Table of Contents
 [Installation](#installation)
