@@ -1,8 +1,8 @@
-# dkasmlfamsdklf
-### Created by ansdkjfnsakjfgasn
+# Readme Generator
+### Created by Jordan Sarvay
 
 ## Description
-nkfadsjfadskfsj
+Used to generate a readme using the command line
 
 ![Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=<brightgreen>)
 
@@ -13,24 +13,25 @@ nkfadsjfadskfsj
 * [Testing](#testing)
 * [Questions](#questions)
     
-<a name="installation"></a>
 ##Installation
-askdjlgfnasknfsadkj
+<a name="installation"></a>
+perform a git clone to your local drive
     
-<a name="usage"></a>
 ##Usage
-adsfjdasnkjfndskandf
+<a name="usage"></a>
+run node index.js
     
-<a name="contributing"></a>
 ##Contributing
-savjknsadflkjvnfslk
+<a name="contributing"></a>
+n/a
     
-<a name="testing"></a>
 ##Testing
-adsflkjdanlkjdnmslkfma
+<a name="testing"></a>
+n/a
     
-<a name="questions"></a>
 ##Questions
+<a name="questions"></a>
 Please feel free to reach out to either of the following links with questions regarding the use of this application.
-Github: [lmakdsfmlask](http://github.com/lmakdsfmlask/)
-E-mail: flaksdnflas
+
+##### Github: [JSarvay](http://github.com/JSarvay/)
+##### E-mail: jordans1@vt.edu
