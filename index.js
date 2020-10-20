@@ -4,6 +4,8 @@ const util = require("util");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
+//Set up function to run inquirer prompts through the command line
+
 function promptUser() {
     return inquirer.prompt([
         {
@@ -60,6 +62,8 @@ function promptUser() {
     ])
 }
 
+//function to generate the text that will be used on the read me
+
 function generateRead(user) {
     return `# ${user.title}
 ### Created by ${user.created}
@@ -99,6 +103,8 @@ Please feel free to reach out to either of the following links with questions re
 ##### Github: [${user.github}](http://github.com/${user.github}/)
 ##### E-mail: ${user.email}`
 }
+
+//chain functions together to run command line prompt and than print to read me. Also account for potential errors.
 
 promptUser()
     .then(function(user){
